@@ -1,0 +1,67 @@
+
+--------[ Early Log ]--------
+
+MRP install script started.
+
+Setup Log locations, main variables...
+Check if Unicode can be used.
+Unicode is in operation.
+MRP Used - CY22M05D18-R145.BL
+OS Build Info - 19041.1.amd64fre.vb_release.191206-1406
+OS Product Name - Windows 10 Pro {from registry}
+OS Full Name - Microsoft Windows 10 Pro
+OS Edition - Professional
+Create cleanup script in case of a crash...
+Start main script processing.
+WMIC command is present in this OS, normal processing should occur.
+Check for clean or upgrade installation.
+Check for Powershell versions that can be used.
+Check for daylight saving mode.
+Define the OS data being installed.
+Define Build code name, if available.
+Check if OEM folder is valid.
+Check OS Build for Edition etc...
+Define local time/date format.
+Determine OS architecture - 32 or 64 bits.
+HDD/SSD Checks...
+Check chassis type.
+Check PC System Type.
+Check config ini data...
+MRP options check - Done.
+Set option defaults if no config ini present...
+Checking which OS Kernel is installed and adjust the options not used in that OS as required...
+Check if option values are valid section...
+Checking for NEQ values and set as No etc...
+Start main 'Debug' log creation {if option is enabled}...
+Check CustomTheme Brand Name exists, if option is used.
+Process User options...
+Virtual Machine detection.
+Checking if OS is an Insider/Preview Build.
+Check if Client or Server installation.
+OS Edition re-checking and system drive rename {if used}.
+Primary/Branding script routines begin.
+OS Language detection.
+Checking for TPM information.
+Checking for any TPM information, this may take a few seconds...
+Checking for valid SLIC and MSDM tables.
+Checking CPU information...
+Checking Memory information...
+Enhanced Memory checks for Type/Speed etc.
+CPU Meltdown and Spectre checks.
+Checking for Retail.txt, ei.cfg and PID.txt files.
+Query DMI for OEM data.
+Computer 'Model Name' Processing.
+CustomTheme Checking.
+OEM Brand transfer routine.
+Wallpaper and Background transfers.
+Primary User Account Picture Management.
+Additional User Account Picture's {PNG} Management.
+Processing the Lock\Log-On Screen Routine.
+Theme definition setting.
+Processing Brand/Theme Files Transfer Routines.
+Tidying up...
+Checking for SetupComplete/FirstLogon files within the 'Scripts' folder.
+Primary/Branding script has now completed.
+Preparing for OOBE reboot.
+
+Early Log Completed. Some log entries may not show depending on OS etc.
